@@ -1,0 +1,9 @@
+name = "voting-website"
+main = "index.js"
+compatibility_date = "2023-01-01"
+
+# 如果您想使用 KV 存储来持久化投票数据，取消下面的注释并替换为您的 KV 命名空间 ID
+# [kv_namespaces]
+# [[kv_namespaces]]
+# binding = "VOTING_STORE"
+# id = "您的KV命名空间ID"
